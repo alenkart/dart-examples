@@ -1,7 +1,7 @@
-/* To create a custom Annotention the class need to have a constan constructor */
+/* To create a custom Annotention the class need to have a constant constructor */
 class MyAnnotantion {
   final String data;
 
-  //constan constructor
+  //constant constructor
   const MyAnnotantion(this.data);
 }

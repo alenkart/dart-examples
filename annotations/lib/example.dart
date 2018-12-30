@@ -1,6 +1,6 @@
 import 'commons.dart';
 
-/* Applying the custom Annotention to a class */
+/* Applying the custom annotention to the example class */
 @MyAnnotantion('Class')
 class Example {
   @MyAnnotantion('Property')
