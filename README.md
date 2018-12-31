@@ -53,7 +53,7 @@ classMirror.metadata.forEach((metadata) {
 ```
 Result: Class
 
-#### Class poperty metadata]
+#### Class property metadata
 ```dart
 @MyAnnotantion('Property')
 String variable;
@@ -73,7 +73,7 @@ classMirror.declarations.forEach((symbol, declaretion) {
 ```
 Result: Property
 
-### Class method metada
+#### Class method metadata
 ```dart
 @MyAnnotantion('Instance method')
 instanceMethod(@MyAnnotantion('Instance method parameter') variable) {}
@@ -96,7 +96,7 @@ classMirror.declarations.forEach((symbol, declaretion) {
 ```
 Result: Instance method, Static method
 
-### Class metod paramter metadata
+#### Class method parameter metadata
 ```dart
 //instanceMethod
 @MyAnnotantion('Instance method parameter') variable
