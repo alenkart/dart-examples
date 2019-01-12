@@ -6,11 +6,11 @@ To make a custom annotation in dart is necessary to create a constant object, th
 
 ### Creating an annotation
 ```dart
-const annotation1 = "annotation";
-const annotation2 = 1;
+const annotationA = "annotation";
+const annotationB = 1;
 
-@annotation1
-@annotation2
+@annotationA
+@annotationB
 method() {}
 ```
 A class with a constant constructor can be use as annotation
